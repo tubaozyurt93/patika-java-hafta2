@@ -29,6 +29,7 @@ public class BlogRepository {
     }
 
     public List<Blog> findAll() {
+
         return blogMap.values().stream().toList();
     }
 
